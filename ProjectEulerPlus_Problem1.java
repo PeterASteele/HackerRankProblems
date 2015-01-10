@@ -21,7 +21,7 @@ Constraints
 1≤N≤109
 */
 
-public class ProjectEulerPlus_Problem1.java {
+public class ProjectEulerPlus_Problem1 {
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner stdin = new Scanner(System.in);
