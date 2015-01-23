@@ -3,6 +3,23 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Project_Euler_Plus_Problem_4 {
+	/*
+	 * This problem is a programming version of Problem 4 from projecteuler.net
+
+A palindromic number reads the same both ways. The smallest 6 digit palindrome made from the product of two 3-digit numbers is 101101=143×707. 
+
+Find the largest palindrome made from the product of two 3-digit numbers which is less than N.
+
+Input Format 
+First line contains T that denotes the number of test cases. This is followed by T lines, each containing an integer, N.
+
+Output Format 
+Print the required answer for each test case in a new line.
+
+Constraints 
+1≤T≤100 
+101101<N<1000000
+	 */
 	public static void main(String[] args) {
 		Scanner stdin = new Scanner(System.in);
 		int numberOfCases = Integer.parseInt(stdin.nextLine());
